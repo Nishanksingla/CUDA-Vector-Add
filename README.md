@@ -1,3 +1,6 @@
-# 2 Vector Addition using CUDA
-Developed a CUDA C prgram to perform 2 vectors addition on NVIDIA Jetson TX1 GPU embedded board.
+# Vector Addition using CUDA
+Developed a CUDA C prgram to perform vector addition on NVIDIA Jetson TX1 GPU embedded board.
+
+GPU kernel code runs with 4 blocks each with 256 threads for performing addition on vectore of length 1024.
+
 
